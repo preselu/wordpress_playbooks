@@ -1,0 +1,10 @@
+[wordpress]
+192.168.191.135
+
+[wordpress:vars]
+server_name=test.example.com
+port=8080
+user=deploy
+worker_processes=2
+max_open_file=30000
+root=/data/www
